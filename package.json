@@ -1,0 +1,23 @@
+{
+  "name": "etrig",
+  "version": "0.1.0",
+  "description": "Super simple programmatic DOM event trigger",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amongiants/etrig"
+  },
+  "main": "etrig.js",
+  "dependencies": {},
+  "keywords": [
+    "event",
+    "trigger",
+    "dom",
+    "programmatic",
+    "simple"
+  ],
+  "author": "Jon Gacnik <jon@folderstudio.com> (http://jongacnik.com/)",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
