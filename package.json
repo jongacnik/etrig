@@ -19,5 +19,9 @@
   "license": "MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/amongiants/etrig/issues"
+  },
+  "homepage": "https://github.com/amongiants/etrig"
 }
