@@ -5,7 +5,8 @@
 module.exports = function(target, type) {
   var doc = document;
   if (doc.createEvent) {
-    var event = new Event(type);
+    var event = document.createEvent("CustomEvent");
+    event.initCustomEvent(type, false, false, {});
     target.dispatchEvent(event);
   } else {
     var event = doc.createEventObject();
